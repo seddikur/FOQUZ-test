@@ -1,0 +1,290 @@
+{
+  "minified": "composer/2.0",
+  "packages": {
+    "webvimark/module-user-management": [
+      {
+        "name": "webvimark/module-user-management",
+        "description": "User with improved RBAC",
+        "keywords": [ ],
+        "homepage": "",
+        "version": "1.0.13",
+        "version_normalized": "1.0.13.0",
+        "license": [ ],
+        "authors": [ ],
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "48adb6cc53fc0a7da34dbf31bba47a0ef8d35cd8"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/48adb6cc53fc0a7da34dbf31bba47a0ef8d35cd8",
+          "type": "zip",
+          "shasum": "",
+          "reference": "48adb6cc53fc0a7da34dbf31bba47a0ef8d35cd8"
+        },
+        "type": "library",
+        "support": {
+          "issues": "https://github.com/webvimark/user-management/issues",
+          "source": "https://github.com/webvimark/user-management/tree/master"
+        },
+        "time": "2016-10-14T10:53:00+00:00",
+        "autoload": {
+          "psr-4": {
+            "webvimark\\modules\\UserManagement\\": ""
+          }
+        },
+        "require": {
+          "webvimark/components": "^1.0.0",
+          "webvimark/bootstrap-switch": "^1.0.0",
+          "ikimea/browser": "1.12.0",
+          "webvimark/date-range-picker": "^1.0.0",
+          "webvimark/helpers": "^1.0.0",
+          "webvimark/grid-bulk-actions": "^1.0.0",
+          "webvimark/grid-page-size": "^1.0.0"
+        }
+      },
+      {
+        "version": "1.0.12",
+        "version_normalized": "1.0.12.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "c429dabbda980f10f7e16ad57bc48fc1c6b81354"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/c429dabbda980f10f7e16ad57bc48fc1c6b81354",
+          "type": "zip",
+          "shasum": "",
+          "reference": "c429dabbda980f10f7e16ad57bc48fc1c6b81354"
+        },
+        "time": "2016-10-14T07:27:10+00:00"
+      },
+      {
+        "version": "1.0.11",
+        "version_normalized": "1.0.11.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "8fe5bbb68c33800d5fd11655924dff4c45296188"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/8fe5bbb68c33800d5fd11655924dff4c45296188",
+          "type": "zip",
+          "shasum": "",
+          "reference": "8fe5bbb68c33800d5fd11655924dff4c45296188"
+        },
+        "time": "2016-10-13T16:20:56+00:00"
+      },
+      {
+        "version": "1.0.10",
+        "version_normalized": "1.0.10.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "14b5a5104dfa618b1e09356dcade085b0453ac3a"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/14b5a5104dfa618b1e09356dcade085b0453ac3a",
+          "type": "zip",
+          "shasum": "",
+          "reference": "14b5a5104dfa618b1e09356dcade085b0453ac3a"
+        },
+        "time": "2016-10-06T06:42:43+00:00"
+      },
+      {
+        "version": "1.0.9",
+        "version_normalized": "1.0.9.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "6a851d840dbec72ec631a49c1efbdd24e1bef911"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/6a851d840dbec72ec631a49c1efbdd24e1bef911",
+          "type": "zip",
+          "shasum": "",
+          "reference": "6a851d840dbec72ec631a49c1efbdd24e1bef911"
+        },
+        "time": "2016-09-21T09:11:18+00:00"
+      },
+      {
+        "version": "1.0.8",
+        "version_normalized": "1.0.8.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "7f79e166a6d55bbdd23b592eedaecc06ecdf87bf"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/7f79e166a6d55bbdd23b592eedaecc06ecdf87bf",
+          "type": "zip",
+          "shasum": "",
+          "reference": "7f79e166a6d55bbdd23b592eedaecc06ecdf87bf"
+        },
+        "time": "2016-09-19T08:16:01+00:00"
+      },
+      {
+        "version": "1.0.7",
+        "version_normalized": "1.0.7.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "5ed4df09e7ab4fb0b97e8c66d70a8a9401bc3e77"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/5ed4df09e7ab4fb0b97e8c66d70a8a9401bc3e77",
+          "type": "zip",
+          "shasum": "",
+          "reference": "5ed4df09e7ab4fb0b97e8c66d70a8a9401bc3e77"
+        },
+        "time": "2016-08-05T07:11:59+00:00"
+      },
+      {
+        "version": "1.0.6",
+        "version_normalized": "1.0.6.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "6ba736f81cc4747c1d119fe46f696f136b92b3c3"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/6ba736f81cc4747c1d119fe46f696f136b92b3c3",
+          "type": "zip",
+          "shasum": "",
+          "reference": "6ba736f81cc4747c1d119fe46f696f136b92b3c3"
+        },
+        "time": "2016-08-05T07:10:30+00:00"
+      },
+      {
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "92f6878b20d4446c9efedeae1188c6be75b7c9cf"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/92f6878b20d4446c9efedeae1188c6be75b7c9cf",
+          "type": "zip",
+          "shasum": "",
+          "reference": "92f6878b20d4446c9efedeae1188c6be75b7c9cf"
+        },
+        "support": {
+          "issues": "https://github.com/webvimark/user-management/issues",
+          "source": "https://github.com/webvimark/user-management/tree/1.0.5"
+        },
+        "time": "2016-06-13T11:48:58+00:00"
+      },
+      {
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "ca3b1365260294c179de749434e71570baaffad5"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/ca3b1365260294c179de749434e71570baaffad5",
+          "type": "zip",
+          "shasum": "",
+          "reference": "ca3b1365260294c179de749434e71570baaffad5"
+        },
+        "support": {
+          "issues": "https://github.com/webvimark/user-management/issues",
+          "source": "https://github.com/webvimark/user-management/tree/1.0.4"
+        },
+        "time": "2016-01-25T15:42:35+00:00",
+        "require": {
+          "webvimark/components": "dev-master",
+          "webvimark/bootstrap-switch": "dev-master",
+          "ikimea/browser": "dev-master",
+          "webvimark/date-range-picker": "dev-master",
+          "webvimark/helpers": "dev-master",
+          "webvimark/grid-bulk-actions": "dev-master",
+          "webvimark/grid-page-size": "dev-master"
+        }
+      },
+      {
+        "version": "v1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "ba59a09f53aa87bd929b49b26de9ca3e07ac7f91"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/ba59a09f53aa87bd929b49b26de9ca3e07ac7f91",
+          "type": "zip",
+          "shasum": "",
+          "reference": "ba59a09f53aa87bd929b49b26de9ca3e07ac7f91"
+        },
+        "support": {
+          "issues": "https://github.com/webvimark/user-management/issues",
+          "source": "https://github.com/webvimark/user-management/tree/master"
+        },
+        "time": "2015-12-09T08:07:32+00:00"
+      },
+      {
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "ee3d7ce673fec8e5b3a7b234bc2c5db73ca06dfc"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/ee3d7ce673fec8e5b3a7b234bc2c5db73ca06dfc",
+          "type": "zip",
+          "shasum": "",
+          "reference": "ee3d7ce673fec8e5b3a7b234bc2c5db73ca06dfc"
+        },
+        "support": {
+          "issues": "https://github.com/webvimark/user-management/issues",
+          "source": "https://github.com/webvimark/user-management/tree/v1.0.2"
+        },
+        "time": "2015-12-08T12:08:45+00:00"
+      },
+      {
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "784a5a87fa413438184d18437bcc12043daacdb8"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/784a5a87fa413438184d18437bcc12043daacdb8",
+          "type": "zip",
+          "shasum": "",
+          "reference": "784a5a87fa413438184d18437bcc12043daacdb8"
+        },
+        "support": {
+          "issues": "https://github.com/webvimark/user-management/issues",
+          "source": "https://github.com/webvimark/user-management/tree/v1.0.1"
+        },
+        "time": "2015-11-27T12:06:22+00:00"
+      },
+      {
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+          "url": "https://github.com/webvimark/user-management.git",
+          "type": "git",
+          "reference": "209798eb272380da9e6861e0b6d38ab30ccac7c2"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/webvimark/user-management/zipball/209798eb272380da9e6861e0b6d38ab30ccac7c2",
+          "type": "zip",
+          "shasum": "",
+          "reference": "209798eb272380da9e6861e0b6d38ab30ccac7c2"
+        },
+        "support": {
+          "issues": "https://github.com/webvimark/user-management/issues",
+          "source": "https://github.com/webvimark/user-management/tree/master"
+        },
+        "time": "2015-11-01T17:28:26+00:00"
+      }
+    ]
+  },
+  "security-advisories": [ ]
+}
