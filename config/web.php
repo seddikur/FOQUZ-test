@@ -27,7 +27,8 @@ $config = [
                 ],*/
 
         'user' => [
-            'class' => 'webvimark\modules\UserManagement\components\UserConfig',
+//            'class' => 'webvimark\modules\UserManagement\components\UserConfig',
+            'class' => \webvimark\modules\UserManagement\components\UserConfig::class,
             'on afterLogin' => function ($event) {
                 \webvimark\modules\UserManagement\models\UserVisitLog::newVisitor($event->identity->id);
             }
@@ -65,7 +66,8 @@ $config = [
     ],
     'modules' => [
         'user-management' => [
-            'class' => 'webvimark\modules\UserManagement\UserManagementModule',
+//            'class' => 'webvimark\modules\UserManagement\UserManagementModule',
+            'class' => \webvimark\modules\UserManagement\UserManagementModule::class,
             // 'enableRegistration' => true,
             // Add regexp validation to passwords. Default pattern does not restrict user and can enter any set of characters.
             // The example below allows user to enter :

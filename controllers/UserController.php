@@ -8,6 +8,7 @@ use app\models\User;
 use app\models\Polyclinics;
 use webvimark\modules\UserManagement\models\search\UserSearch;
 use yii\web\NotFoundHttpException;
+//use yii\data\ActiveDataProvider;
 
 /**
  * UserController implements the CRUD actions for User model.

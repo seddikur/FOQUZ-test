@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use webvimark\modules\UserManagement\components\GhostAccessControl;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -42,7 +43,8 @@ class BaseController extends Controller
     {
         return [
             'ghost-access' => [
-                'class' => 'webvimark\modules\UserManagement\components\GhostAccessControl',
+//                'class' => 'webvimark\modules\UserManagement\components\GhostAccessControl',
+                'class' => GhostAccessControl::class,
             ],
         ];
     }
