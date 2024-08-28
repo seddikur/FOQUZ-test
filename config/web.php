@@ -60,6 +60,11 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 '' => 'patientss/index',
+//                [
+//                    'class' => 'yii\rest\UrlRule',
+//                    'controller' => ['patientss', 'api/patientss'=>'api/patientss'],
+//                    'pluralize' =>false
+//                ],
             ],
         ],
 
@@ -85,6 +90,10 @@ $config = [
                     $event->action->controller->layout = 'loginLayout.php';
                 };
             },
+        ],
+
+        'api' => [
+            'class' => 'app\modules\api\Module',
         ],
     ],
     'params' => $params,
