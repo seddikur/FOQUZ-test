@@ -16,4 +16,6 @@
 ``a.plotnikov``
 ``3goxLF%Yfh5B``
 
+### API
+http://localhost:8000/api/patientss
 

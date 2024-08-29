@@ -12,6 +12,7 @@ use yii\filters\auth\HttpBasicAuth;
 use yii\filters\auth\HttpBearerAuth;
 use yii\helpers\ArrayHelper;
 use yii\rest\ActiveController;
+use yii\filters\auth\QueryParamAuth;
 
 //class PatientssController extends BaseController
 class PatientssController extends ActiveController
@@ -26,13 +27,14 @@ class PatientssController extends ActiveController
     public function behaviors() {
         $behaviors = parent::behaviors();
         $behaviors['authenticator'] = [
-            'class' => GhostAccessControl::class,
+//            'class' => GhostAccessControl::class,
 //            'class' => HttpBasicAuth::className(),
-//            'class' => CompositeAuth::className(),
-//            'authMethods' => [
-//                \yii\filters\auth\HttpBasicAuth::class,
-//                \yii\filters\auth\QueryParamAuth::class,
-//            ],
+            'class' => CompositeAuth::className(),
+            'authMethods' => [
+                HttpBasicAuth::className(),
+                HttpBearerAuth::className(),
+                QueryParamAuth::className(),
+            ],
         ];
             $behaviors['access'] = [
                 'class' => AccessControl::className(),
