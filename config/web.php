@@ -15,7 +15,13 @@ $config = [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'k3wUEV83VnszvjN9HbR-LeCXWzmnNV6n',
+            //для приема входных данных в формате JSON
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ],
         ],
+
+
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
@@ -60,11 +66,11 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 '' => 'patientss/index',
-//                [
-//                    'class' => 'yii\rest\UrlRule',
-//                    'controller' => ['patientss', 'api/patientss'=>'api/patientss'],
-//                    'pluralize' =>false
-//                ],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => ['patientss', 'api/patientss'=>'api/patientss'],
+                    'pluralize' =>false
+                ],
             ],
         ],
 

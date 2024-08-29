@@ -8,6 +8,7 @@
 * Запуск Docker `` docker compose up -d ``
 * Переход в контейнер  `` docker-compose exec -it php bash ``
 * Запуск установки расширений yii2 `` composer update ``
+* Проверить есль ли папка assets в web (при отсутствии добавить)
 * Установка дампа
 
 
