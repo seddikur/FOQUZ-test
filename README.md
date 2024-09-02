@@ -19,3 +19,15 @@
 ### API
 http://localhost:8000/api/patientss
 
+* GET /patientss: получение постранично списка всех пациентов;
+* HEAD /patientss: получение метаданных листинга пациентов;
+* POST /patientss: создание нового пациента;
+* GET /patientss/123: получение информации по конкретному пациенту с id равным 123;
+* HEAD /patientss/123: получение метаданных по конкретному пациенту с id равным 123;
+* PATCH /patientss/123 и PUT /users/123: изменение информации по пациенту с id равным 123;
+* DELETE /patientss/123: удаление пациента с id равным 123;
+* OPTIONS /patientss: получение поддерживаемых методов, по которым можно обратится к /patientss;
+* OPTIONS /patientss/123: получение поддерживаемых методов, по которым можно обратится к /patientss/123.
+
+#### Получить ответы по API используя curl:
+*curl -i -H "Accept:application/json" "http://localhost:8000/api/patientss"
